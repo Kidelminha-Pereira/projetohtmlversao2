@@ -1,0 +1,88 @@
+*
+{
+    background-color: rgb(250, 250, 250);
+    text-align: justify;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.menu,a{
+    text-decoration: none;
+}
+
+.titulo img {
+    margin: 25px;
+    width: 100%;
+    height: 50%;
+}
+
+.fundo {
+    background-color: rgb(39, 1, 39);
+}
+
+.cabecalho {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    border-radius: 50%;
+    width: 285px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 250px;
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    background-color: #f4f9f9;
+}
+
+#contact {
+    height: calc(100vh + 80px);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    font-size: 20;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    width: 100%;
+    padding: 5px 20px;
+}
+
+input,
+textarea,
+button {
+    box-shadow: 0 1px 2px #ddd;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    resize: none;
+}
+
+#btn {
+    background-color: green;
+    color: rgb(14, 243, 83);
+    font-size: 18px;
+    cursor: pointer;
+    opacity: 0, 9;
+}
+
+#contact form button:hover {
+    opacity: 1;
+}
